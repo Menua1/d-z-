@@ -6,11 +6,15 @@
 
 internal class Program
 {
+    private static int i;
+
     private static void Main(string[] args)
     {
         Console.WriteLine("Введите число: ");
+        
         i = int.Parse(Console.ReadLine());
-        if(i % 2 == 0)
+
+        if (i % 2 == 0)
         {
             Console.Write("введеное число является четным ");
             Console.Read();
